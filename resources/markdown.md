@@ -196,8 +196,9 @@ In the scikit-learn's official source repo, about how many issues are outstandin
 4. 7000  
 
 
-  3. 700
-
+<ol start="3">
+  <li>700</li>
+</ol>
 ## <a name="section-r"></a>References 
 
 [Markdown Help](http://mathoverflow.net/editing-help)
