@@ -24,7 +24,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ###Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
+`ls`
 `ls -a`  
 `ls -l`  
 `ls -lh`  
@@ -32,19 +32,19 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-ls - lists files in current directory
+`ls` - lists files in current directory
 
-ls -a - above, but all files, including hidden
+`ls -a` - above, but all files, including hidden
 
-ls -l - lists files in long formatting mode, with permissions and other file metadata
+`ls -l` - lists files in long formatting mode, with permissions and other file metadata
 
-ls -lh - same as ls -l except filesizes have suffix abbreviations
+`ls -lh` - same as ls -l except filesizes have suffix abbreviations
 
-ls -lah - same as ls -lh, except shows hidden files
+`ls -lah` - same as ls -lh, except shows hidden files
 
-ls -t - sorts by time modified
+`ls -t` - sorts by time modified
 
-ls -Glp - G adds color, p adds trailing slash to directories, l adds long formatting
+`ls -Glp` - G adds color, p adds trailing slash to directories, l adds long formatting
 
 ---
 
