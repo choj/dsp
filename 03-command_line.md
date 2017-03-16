@@ -13,7 +13,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 2. pwd - prints working director
 3. which - prints location of binary referenced by command
 4. chmod - change file modes (permissions)
-5. ln - create symlinks
+5. env - return list of environment variables set
 6. cp - copy files
 7. mv - move files
 8. rm - delete files
@@ -32,7 +32,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-ls - lists files in urrent directory
+ls - lists files in current directory
+ls -a - above, but all files, including hidden
+ls -l - lists files in long formatting mode, with permissions and other file metadata
+ls -lh - same as ls -l except filesizes have suffix abbreviations
+ls -lah - same as ls -lh, except shows hidden files
+ls -t - sorts by time modified
+ls -Glp - G adds color, p adds trailing slash to directories, l adds long formatting
 
 ---
 
@@ -40,7 +46,11 @@ ls - lists files in urrent directory
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+-G colors, easier to read
+-p clearly identifies directories
+-R displays subdirectories as well
+-m displays names as comma-separated list, might be useful for programming
+-d displays only directories
 
 ---
 
@@ -48,7 +58,5 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
+Xargs allows passing arbitrary numbers of arguments to commands. Invoking xargs will issue a single command for each argument, so it can be useful for mass deleting of files returned by the find command.
 
