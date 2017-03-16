@@ -9,8 +9,16 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+1. ls - lists files in directory
+2. pwd - prints working director
+3. which - prints location of binary referenced by command
+4. chmod - change file modes (permissions)
+5. ln - create symlinks
+6. cp - copy files
+7. mv - move files
+8. rm - delete files
+9. sort - alphabetically sort lines in a file
+10. sed - stream editor sort of like find and replace for in-console text streams
 ---
 
 ###Q2.  List Files in Unix   
@@ -24,7 +32,7 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls - lists files in urrent directory
 
 ---
 
