@@ -175,8 +175,6 @@ What is the most installed language in the world?
 
 Python
 
--
-
 ####Q2.  
 In hypothesis testing, we use the t score when the sample size is < 30 and the populations SD is unknown; else we use the Z score. 
 What is the distribution of t-squared?
@@ -196,8 +194,6 @@ In the scikit-learn's official source repo, about how many issues are outstandin
 2. 70  
 3. 700  
 4. 7000  
-
->>REPLACE THIS TEXT WITH YOUR RESPONSE
 
 3. 700
 
