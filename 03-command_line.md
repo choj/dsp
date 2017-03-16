@@ -9,7 +9,7 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-1. ls - lists files in directory
+1. source - activate changes made to .bash_profile in the current session
 2. pwd - prints working director
 3. which - prints location of binary referenced by command
 4. chmod - change file modes (permissions)
