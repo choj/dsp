@@ -52,15 +52,15 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
--G colors, easier to read
+`-G` colors, easier to read
 
--p clearly identifies directories
+`-p` clearly identifies directories
 
--R displays subdirectories as well
+`-R` displays subdirectories as well
 
--m displays names as comma-separated list, might be useful for programming
+`-m` displays names as comma-separated list, might be useful for programming
 
--d displays only directories
+`-d` displays only directories
 
 ---
 
@@ -68,5 +68,5 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-Xargs allows passing arbitrary numbers of arguments to commands. Invoking xargs will issue a single command for each argument, so it can be useful for mass deleting of files returned by the find command.
+`xargs` allows passing arbitrary numbers of arguments to commands. Invoking `xargs` will issue a single command for each argument, so one could use it to delete files returned by `find`.
 
