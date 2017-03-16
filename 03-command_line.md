@@ -33,11 +33,17 @@ What do the following commands do:
 `ls -Glp`  
 
 ls - lists files in current directory
+
 ls -a - above, but all files, including hidden
+
 ls -l - lists files in long formatting mode, with permissions and other file metadata
+
 ls -lh - same as ls -l except filesizes have suffix abbreviations
+
 ls -lah - same as ls -lh, except shows hidden files
+
 ls -t - sorts by time modified
+
 ls -Glp - G adds color, p adds trailing slash to directories, l adds long formatting
 
 ---
@@ -47,9 +53,13 @@ ls -Glp - G adds color, p adds trailing slash to directories, l adds long format
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 -G colors, easier to read
+
 -p clearly identifies directories
+
 -R displays subdirectories as well
+
 -m displays names as comma-separated list, might be useful for programming
+
 -d displays only directories
 
 ---
