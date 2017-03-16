@@ -35,7 +35,7 @@ Here's a basic list of commands:
 |---|----------------|----------------|--------------|--------------------|----------------|
 | 1 | nano           | nano filen.py  | [just type]  | ctrl + o, enter    | ctrl + x       |
 | 2 | vim, vi        | vim filen.py   | [just type]  | esc :w, enter      | esc :q, enter  |
-| 3 | emacs          | emacs filen.py | [just type]  | ctrl-x, xtrl-s     | ctrl-x, ctrl-c |
+| 3 | emacs          | emacs filen.py | [just type]  | ctrl-x, ctrl-s     | ctrl-x, ctrl-c |
  
 
 ---
@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Vim. I've used it the longest. Short commands.
 
 --
 
@@ -89,6 +89,6 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Spyder. I like the integrated editor/console windows. You can explore variables. Command-1 block comment, tab block indent. Drag around the windows, or use the command in the View menu.
 
  
