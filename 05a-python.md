@@ -69,9 +69,34 @@ A list comprehension is a compact way of writing an expression acting on each el
 
 `[1.0, 0.5, 0.3333333333333333, 0.25]`
 
-set comprehensions
+This can also be accomplished with `map`:
 
-dict comprehensions
+`>>> inv = lambda x: 1/x`
+
+`>>> list(map(inv,x))`
+
+`filter` can be used to output elements of a list that are true according to a function containing a conditional:
+
+`>>> list(filter(lambda x: x % 2,x))`
+
+`[1, 3]`
+
+A set comprehension is similar to a list comprehension
+`>>> a = {1,3,5}`
+
+`>>> {i**2 for i in a}`
+
+`{1, 9, 25}`
+
+A dictionary comprehension follows similarly, and operates on the keys of the dictionary:
+
+`>>> d = {1:"apple", 2:"pear", 3:"orange"}`
+
+`>>> {i**2 for i in d}`
+
+`{1, 4, 9}`
+
+
 
 ---
 
@@ -86,7 +111,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+937
 
 b.  
 ```
@@ -94,7 +119,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+513
 
 c.  
 ```
@@ -102,7 +127,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+7850
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
