@@ -15,7 +15,13 @@ def match_ends(words):
     >>> match_ends(['aaa', 'be', 'abc', 'hello'])
     1
     """
-    raise NotImplementedError
+    count = 0
+    for w in words:
+        if len(w) > 1 and w[0] == w[-1]:
+            count += 1
+    
+    return count    
+    #raise NotImplementedError
 
 
 def front_x(words):
@@ -32,7 +38,19 @@ def front_x(words):
     >>> front_x(['mix', 'xyz', 'apple', 'xanadu', 'aardvark'])
     ['xanadu', 'xyz', 'aardvark', 'apple', 'mix']
     """
-    raise NotImplementedError
+    
+    
+    words.sort()
+    xwords = []
+    for w in words:
+        if w[0] == 'x':
+            xwords.append(w)
+    for xw in xwords:
+            words.remove(xw)
+    return xwords + words
+    
+    
+    #raise NotImplementedError
 
 
 def sort_last(tuples):
@@ -49,7 +67,9 @@ def sort_last(tuples):
     >>> sort_last([(1, 7), (1, 3), (3, 4, 5), (2, 2)])
     [(2, 2), (1, 3), (3, 4, 5), (1, 7)]
     """
-    raise NotImplementedError
+    tuples.sort(key=lambda x: x[-1])
+    return tuples
+    #raise NotImplementedError
 
 
 def remove_adjacent(nums):
@@ -68,7 +88,14 @@ def remove_adjacent(nums):
     >>> remove_adjacent([])
     []
     """
-    raise NotImplementedError
+    unique_nums = [nums[0]]
+    i = 0
+    while i < len(nums)-1:
+        if nums[i+1] != unique_nums[-1]:
+            unique_nums.append(nums[i+1])
+        i += 1
+    return unique_nums
+#    raise NotImplementedError
 
 
 def linear_merge(list1, list2):
@@ -84,5 +111,23 @@ def linear_merge(list1, list2):
     ['aa', 'bb', 'cc', 'xx', 'zz']
     >>> linear_merge(['aa', 'aa'], ['aa', 'bb', 'bb'])
     ['aa', 'aa', 'aa', 'bb', 'bb']
+    
+    >>> linear_merge(['aa', 'qq' ,'xx', 'zz'], ['bb', 'cc','dd','ee','ff',])
     """
-    raise NotImplementedError
+    i = 0
+    j = 0
+    list12= []
+    while i < len(list1) and j < len(list2):
+        if list1[i] < list2[j]:
+            list12.append(list1[i])
+            i += 1
+        else:
+            list12.append(list2[j])
+            j += 1
+            
+    return(list12 + list2[j:] + list1[i:])
+        
+    
+    
+    
+    #raise NotImplementedError
