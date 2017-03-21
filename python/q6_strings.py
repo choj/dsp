@@ -18,7 +18,13 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
-    raise NotImplementedError
+    
+    if count<10:
+        print("Number of donuts: ", count)
+    else:
+        print("Number of donuts: ", many)
+    
+    #raise NotImplementedError
 
 
 def both_ends(s):
@@ -37,7 +43,13 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
-    raise NotImplementedError
+    
+    if len(s) > 1:
+        return s[0:2] + s[-2:]
+    else:
+        return ''
+    
+    #raise NotImplementedError
 
 
 def fix_start(s):
@@ -56,7 +68,9 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    raise NotImplementedError
+    
+    return s[0] + s[1:].replace(s[0],"*")
+    #raise NotImplementedError
 
 
 def mix_up(a, b):
@@ -74,7 +88,8 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    raise NotImplementedError
+    return b[0:2] + a[2:] + " " + a[0:2] + b[2:]
+    #raise NotImplementedError
 
 
 def verbing(s):
@@ -91,7 +106,16 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
-    raise NotImplementedError
+    
+    if len(s) > 2:
+        if s[-3:] != "ing":
+            return s + "ing"
+        else:
+            return s + "ly"
+    else:
+        return s
+        
+    #raise NotImplementedError
 
 
 def not_bad(s):
@@ -111,7 +135,15 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
+    
+    first_not = s.find("not")
+    first_bad = s.find("bad")
+    if first_bad > first_not:
+        return s[0:first_not] + "good" + s[first_bad+3:]
+    else:
+        return s
+        
+    #raise NotImplementedError
 
 
 def front_back(a, b):
@@ -130,4 +162,15 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+    
+    a_half_length = int(len(a)/2) + len(a) % 2
+    b_half_length = int(len(b)/2) + len(b) % 2
+    
+    a_front = a[0:a_half_length]
+    a_back = a[a_half_length:]
+    b_front = b[0:b_half_length]
+    b_back = b[b_half_length:]
+    
+    return a_front + b_front + a_back + b_back
+    
+    #raise NotImplementedError
