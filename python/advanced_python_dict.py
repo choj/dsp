@@ -5,13 +5,6 @@ fac_data.email
 fac_data.email.to_csv("emails.csv", index=False)
 
 ####Q6.  Create a dictionary in the below format:
-faculty_dict = { 
-'Ellenberg': [['Ph.D.', 'Professor', 'sellenbe@upenn.edu'],
-              ['Ph.D.', 'Professor', 'jellenbe@mail.med.upenn.edu']],
-
-'Li':[['Ph.D.', 'Assistant Professor', 'liy3@email.chop.edu'], 
-      ['Ph.D.', 'Associate Professor', 'mingyao@mail.med.upenn.edu'], 
-      ['Ph.D.', 'Professor', 'hongzhe@upenn.edu']]}
 #Print the first 3 key and value pairs of the dictionary:
 
 
