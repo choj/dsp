@@ -27,11 +27,20 @@ for i,row in fac_data.iterrows():
     lastname_dir[lastname] = lastname_dir.get(lastname, [])
     lastname_dir[lastname].append([" ".join(row[1]) , " ".join(row[2].split()[0:-1]), row.email])
 
-
-
 # generate first & last name directory
 fullname_dir = {}
 for i,row in fac_data.iterrows():
     firstname, lastname = row[0].split()[0], row[0].split()[-1]
     fullname = (firstname, lastname)
     fullname_dir[fullname] = [" ".join(row[1]) , " ".join(row[2].split()[0:-1]), row.email]
+
+name_list = list(fullname_dir.keys())
+name_list.sort(key=lambda n: n[1])
+
+for name in name_list:
+    print(name, fullname_dir[name])
+
+
+
+
+
