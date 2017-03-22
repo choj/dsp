@@ -19,7 +19,7 @@ fac_data = pd.read_csv("faculty.csv", sep=',\s|,')
 
 fac_data.degree = fac_data.degree.map(lambda x: x.replace('.',''))
 
-# ...and replacing multiple degrees with a list, and switch to lowercase
+# ...and replacing multiple degrees with a list
 for i,deg in enumerate(fac_data.degree):
     fac_data.degree[i] = deg.split(" ")
 
