@@ -116,7 +116,7 @@ How do frequentist and Bayesian statistics compare?
 
 ###A6.
 
-Frequentist statistics emphasizes the frequency of data in a fixed world, bayesian statistics emphasizes updating the world with new data. The frequentist view is that an experiment is one among an infinite series of such experiences, each independent, whereas bayesian would accept that prior information may be considered in understanding future experiments.
+Frequentist statistics emphasizes the frequency of data in a fixed world, bayesian statistics emphasizes updating the world with new data. The frequentist view is that an experiment is one among an infinite series of such experiments, each independent, whereas bayesian would accept that prior information may be considered in understanding future experiments.
 
 ---
 
