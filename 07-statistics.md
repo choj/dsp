@@ -91,7 +91,7 @@ It is given that,
 
 ```P(I) = 1/300```
 
-These are disjoint subspaces that form the entirety of the subspace that is a twin (all twins are either fraternal or identical). Therefore the probability that a twin exists in a population,
+These are disjoint subspaces that form the subspace that is twin is in a population (all twins are either fraternal or identical). Therefore, the corresponding probability is,
 
 ```P(T) = P(F) + P(I) = 0.01133```
 
@@ -114,7 +114,9 @@ We know that ```P(T|I) = 1```, that is, the probability that there is a twin giv
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+###A6.
+
+Frequentist statistics emphasizes the frequency of data in a fixed world, bayesian statistics emphasizes updating the world with new data. The frequentist understanding is that an experiment is one among an infinite series of such experiences, each independent, whereas bayesian would accept that prior information may be considered in viewing further outcomes.
 
 ---
 
